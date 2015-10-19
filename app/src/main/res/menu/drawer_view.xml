@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Overview"/>
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_event"
+            android:title="Shop"/>
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_headset"
+            android:title="Support"/>
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_forum"
+            android:title="My Account"/>
+    </group>
+
+    <group>
+        <item>
+            <menu>
+                <item
+                    android:id="@+id/nav_search"
+                    android:icon="@drawable/ic_dashboard"
+                    android:title="Search"/>
+                <item
+                    android:id="@+id/nav_l_chat"
+                    android:icon="@drawable/ic_forum"
+                    android:title="Live Chat"/>
+                <item
+                    android:title=" "/>
+                <item
+                    android:id="@+id/nav_shopping"
+                    android:icon="@drawable/ic_forum"
+                    android:title="My Shopping Cart"/>
+            </menu>
+        </item>
+
+        <item>
+            <menu>
+                <item
+                    android:id="@+id/nav_signout"
+                    android:icon="@drawable/ic_dashboard"
+                    android:title="Sign Out"/>
+            </menu>
+
+        </item>
+    </group>
+
+</menu>
